@@ -1,0 +1,24 @@
+{
+  "name": "@digidem/slack-irc",
+  "version": "1.0.0",
+  "description": "IRC Bridge for Digidem Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Digital Democracy",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "slack-irc": "^3.11.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digidem/slack-irc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digidem/slack-irc/issues"
+  },
+  "homepage": "https://github.com/digidem/slack-irc#readme"
+}
