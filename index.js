@@ -12,7 +12,7 @@ const config = {
     secure: true,
     selfSigned: true,
     certExpired: true,
-    debug: true,
+    debug: !!process.env.DEBUG,
     nick: process.env.IRC_NICKNAME,
     userName: process.env.IRC_NICKNAME,
     password: process.env.IRC_PASSWORD
